@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-16T16:01:05 CDT" name="Default suite" finished-at="2020-05-16T16:01:21 CDT" duration-ms="15877">
+    <groups>
+      <group name="regression">
+        <method signature="OrangeHRMTitleAndLoginValidation.titleValidation()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" name="titleValidation" class="com.class01.OrangeHRMTitleAndLoginValidation"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="OrangeHRMTitleAndLoginValidation.loginValidation()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" name="loginValidation" class="com.class01.OrangeHRMTitleAndLoginValidation"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="OrangeHRMTitleAndLoginValidation.loginValidation()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" name="loginValidation" class="com.class01.OrangeHRMTitleAndLoginValidation"/>
+        <method signature="OrangeHRMTitleAndLoginValidation.titleValidation()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" name="titleValidation" class="com.class01.OrangeHRMTitleAndLoginValidation"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2020-05-16T16:01:05 CDT" name="Default test" finished-at="2020-05-16T16:01:21 CDT" duration-ms="15877">
+      <class name="com.class01.OrangeHRMTitleAndLoginValidation">
+        <test-method is-config="true" signature="openBrowserAndNavigateToHRM()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" started-at="2020-05-16T16:01:05 CDT" name="openBrowserAndNavigateToHRM" finished-at="2020-05-16T16:01:12 CDT" duration-ms="6928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndNavigateToHRM -->
+        <test-method signature="loginValidation()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" started-at="2020-05-16T16:01:12 CDT" name="loginValidation" finished-at="2020-05-16T16:01:13 CDT" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" started-at="2020-05-16T16:01:13 CDT" name="closeBrowser" finished-at="2020-05-16T16:01:14 CDT" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserAndNavigateToHRM()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" started-at="2020-05-16T16:01:14 CDT" name="openBrowserAndNavigateToHRM" finished-at="2020-05-16T16:01:20 CDT" duration-ms="6288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndNavigateToHRM -->
+        <test-method signature="titleValidation()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" started-at="2020-05-16T16:01:20 CDT" name="titleValidation" finished-at="2020-05-16T16:01:20 CDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.class01.OrangeHRMTitleAndLoginValidation@8909f18]" started-at="2020-05-16T16:01:20 CDT" name="closeBrowser" finished-at="2020-05-16T16:01:21 CDT" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.class01.OrangeHRMTitleAndLoginValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
